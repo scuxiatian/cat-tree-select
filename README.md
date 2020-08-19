@@ -1,4 +1,6 @@
-# cat-tree-select
+# cat-tree-select 基于Vue + Element-ui的树选择器
+
+demo中包含详细示例代码及完整Api
 
 ## Project setup
 ```
@@ -9,16 +11,3 @@ npm install
 ```
 npm run serve
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
