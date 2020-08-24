@@ -211,7 +211,7 @@ export default {
         this.selectedLabel = ''
         return
       }
-      this.selectedLabel = node[this.props.label || 'label']
+      this.selectedLabel = node.label
       this.visible = false
       this.$emit('input', val)
     },
