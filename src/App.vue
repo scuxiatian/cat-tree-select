@@ -25,6 +25,7 @@
     <show-table title="TreeSelect" :data="attributes"></show-table>
     <show-table title="" type="props" :data="props"></show-table>
     <show-table title="TreeSelect" type="events" :data="events"></show-table>
+    <show-table title="TreeSelect" type="methods" :data="methods"></show-table>
     <show-table title="TreeSelect" type="vSlots" :data="vslots"></show-table>
   </view-page>
 </template>
@@ -123,6 +124,9 @@ export default {
         ['blur', '当 input 失去焦点时触发', '(event: Event)'],
         ['focus', '当 input 获得焦点时触发', '(event: Event)'],
         ['el-tree events', '参考element-ui官网 el-tree events', '—']
+      ],
+      methods: [
+        ['updateCheckedNodes', '刷新选中节点，异步方法更新value或data时用', '—']
       ],
       vslots: [
         ['-', '自定义备选项的节点内容，参数为 { node, data }，分别为当前节点的 Node 对象和数据']

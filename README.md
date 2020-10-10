@@ -176,6 +176,12 @@ filterNode (value, data) {
 |focus|当 input 获得焦点时触发|(event: Event)
 |el-tree events|参考element-ui官网 el-tree events|—
 
+### TreeSelect Methods
+
+|   方法类型   | 说明   |  参数  |
+| :--------:   | :-----:  | :----:  |
+|updateCheckedNodes|刷新选中节点，异步方法更新value或data时用|—
+
 ### TreeSelect V-Slot
 |   name   | 说明  |
 | :--------:   | :-----:  |
